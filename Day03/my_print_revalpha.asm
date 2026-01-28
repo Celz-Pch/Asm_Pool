@@ -26,7 +26,7 @@ loop_revalpha:
     jl end_revloop
 
     mov dil, bl
-    call my_putchar_rev
+    call my_putchar
 
     dec bl
     jmp loop_revalpha
@@ -36,7 +36,7 @@ end_revloop:
     leave
     ret
 
-my_putchar_rev:
+my_putchar:
 
     push rbp
     mov rbp, rsp
