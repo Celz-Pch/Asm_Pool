@@ -8,7 +8,6 @@ The best way to learn a language is to build something real with it, so the goal
 
 - Linux x86-64
 - [NASM](https://www.nasm.us/)
-- `ld` (GNU binutils)
 
 ## Challenge
 
